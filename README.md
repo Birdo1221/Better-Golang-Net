@@ -1,31 +1,30 @@
 # Go Botnet Controller
 
-![Go Gopher](https://golang.org/doc/gopher/doc.png)
-
 This project is a botnet controller implemented in Go (Golang) for managing bot connections and executing commands on connected bots over TCP/IP.
+
+![Botnet Controller](https://example.com/path/to/image.png)
 
 ## Table of Contents
 
-- ![Overview](https://example.com/overview.png) [Overview](#overview)
-- ![Features](https://example.com/features.png) [Features](#features)
-- ![Setup](https://example.com/setup.png) [Setup](#setup)
-- ![Usage](https://example.com/usage.png) [Usage](#usage)
-- ![Contributing](https://example.com/contributing.png) [Contributing](#contributing)
-- ![License](https://example.com/license.png) [License](#license)
+- [Overview](#overview)
+- [Features](#features)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
-
-![Controller Diagram](https://example.com/controller-diagram.png)
 
 The Go Botnet Controller provides a server-client architecture where the server (controller) manages user connections and bot connections. Users can authenticate and interact with the botnet controller to send commands to connected bots.
 
 The controller listens for connections on specified ports (`USER_SERVER_PORT` and `BOT_SERVER_PORT`) and handles incoming connections accordingly.
 
 ## Features
-- ![Authentication](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/637a8e02-4460-46e2-a091-7ed560ed71fe) User authentication system with username/password from a file (`users.txt`).
-- ![Menu](https://example.com/menu.png) Interactive command menu for users to view connected bots, view rules, send commands to bots, and view ongoing attacks.
--  Handles concurrent connections using Goroutines.
-- ![Command Execution](https://example.com/command-execution.png) Basic bot command execution (`sendCommandToBots`) and management of ongoing attacks.
+
+- User authentication system with username/password from a file (`users.txt`).
+- Interactive command menu for users to view connected bots, view rules, send commands to bots, and view ongoing attacks.
+- Handles concurrent connections using Goroutines.
+- Basic bot command execution (`sendCommandToBots`) and management of ongoing attacks.
 
 ## Setup
 
