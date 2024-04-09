@@ -9,8 +9,6 @@ This repository contains a botnet controller and a botnet client implemented in 
 
 The botnet controller manages user connections, handles bot commands, and orchestrates attacks on specified targets. The botnet client (bot) connects to the controller and executes commands received from it.
 
-![Botnet Architecture](images/botnet_architecture.png)
-
 ## Botnet Controller
 
 ### Features:
