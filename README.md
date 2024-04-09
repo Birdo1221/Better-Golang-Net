@@ -1,8 +1,4 @@
 # Botnet Controller and Botnet Client
-
-
-![Botnet Controller](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/51845371-a14e-4581-865f-b5efba055a9d)
-
 This repository contains a botnet controller and a botnet client implemented in Go.
 
 ## Overview
@@ -10,6 +6,9 @@ This repository contains a botnet controller and a botnet client implemented in 
 The botnet controller manages user connections, handles bot commands, and orchestrates attacks on specified targets. The botnet client (bot) connects to the controller and executes commands received from it.
 
 ## Botnet Controller
+
+![Botnet Controller](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/51845371-a14e-4581-865f-b5efba055a9d)
+
 
 ### Features:
 
