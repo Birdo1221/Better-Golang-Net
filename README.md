@@ -2,7 +2,7 @@
 
 This project is a botnet controller implemented in Go (Golang) for managing bot connections and executing commands on connected bots over TCP/IP.
 
-![Botnet Controller](https://example.com/path/to/image.png)
+![Botnet Controller](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/51845371-a14e-4581-865f-b5efba055a9d)
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ The controller listens for connections on specified ports (`USER_SERVER_PORT` an
 1. **Clone Repository:**
 
    ```bash
-   git clone https://github.com/your-username/go-botnet-controller.git
+   git clone https://github.com/Birdo1221/go-botnet-controller.git
    ```
 
 2. **Navigate to Project:**
