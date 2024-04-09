@@ -63,19 +63,19 @@ git clone https://github.com/Birdo1221/Better-Go-Cnc.git
 cd Better-Go-Cnc/controller
 
 # Build and run the controller
-go build
-./controller
+go build ./controller
 ```
+
+#### 2. Set Up Botnet Bot / Client
+
+```bash
 # Clone the botnet client repository
-```
 git clone https://github.com/Birdo1221/Better-Go-Cnc.git
-```
+
 # Navigate to the bot directory
-```
 cd Better-Go-Cnc/bot
-```
+
 # Build and run the bot
-```
 go build ./bot
 ```
 
