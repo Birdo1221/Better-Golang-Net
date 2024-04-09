@@ -22,8 +22,7 @@ The Go Botnet Controller provides a server-client architecture where the server 
 The controller listens for connections on specified ports (`USER_SERVER_PORT` and `BOT_SERVER_PORT`) and handles incoming connections accordingly.
 
 ## Features
-
-- ![Authentication](https://example.com/authentication.png) User authentication system with username/password from a file (`users.txt`).
+- ![Authentication](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/637a8e02-4460-46e2-a091-7ed560ed71fe) User authentication system with username/password from a file (`users.txt`).
 - ![Menu](https://example.com/menu.png) Interactive command menu for users to view connected bots, view rules, send commands to bots, and view ongoing attacks.
 -  Handles concurrent connections using Goroutines.
 - ![Command Execution](https://example.com/command-execution.png) Basic bot command execution (`sendCommandToBots`) and management of ongoing attacks.
