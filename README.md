@@ -65,8 +65,6 @@ The controller listens for connections on specified ports (`USER_SERVER_PORT` an
 
 ## Contributing
 
-![Contributing](https://example.com/contributing-image.png)
-
 Contributions to this project are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork the repository.
@@ -76,7 +74,5 @@ Contributions to this project are welcome. For major changes, please open an iss
 5. Open a pull request.
 
 ## License
-
-![License](https://example.com/license-image.png)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
