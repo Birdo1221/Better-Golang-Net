@@ -9,10 +9,7 @@ The botnet controller manages user connections, handles bot commands, and makes 
 ## Botnet Controller
 
 
-<div style="text-align: center;">
 ![Botnet_Controller_Login](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/0b125e4d-2b7d-431c-badc-a6555c2bb0f8)
-</div>
-
 Login
 ![Botnet Controller](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/51845371-a14e-4581-865f-b5efba055a9d)
 Menu  
