@@ -1,6 +1,7 @@
-# Go Botnet Controller
+# Go Ddos Botnet Controller
 
-This project is a botnet controller implemented in Go (Golang) for managing bot connections and executing commands on connected bots over TCP/IP.
+This project is a botnet controller implemented in Go (Golang) for managing bot connections and executing commands on connected bots over TCP/IP. 
+This project is based on Network Overloading (Ddos) by sending overwhelming amount of traffic.
 
 ![Botnet Controller](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/51845371-a14e-4581-865f-b5efba055a9d)
 
