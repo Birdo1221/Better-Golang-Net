@@ -1,66 +1,48 @@
-# Go Ddos Botnet Controller
+# Botnet Controller and Botnet Client
 
-This project is a botnet controller implemented in Go (Golang) for managing bot connections and executing commands on connected bots over TCP/IP. 
-This project is based on Network Overloading (Ddos) by sending overwhelming amount of traffic.
 
 ![Botnet Controller](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/51845371-a14e-4581-865f-b5efba055a9d)
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+This repository contains a botnet controller and a botnet client implemented in Go.
 
 ## Overview
 
-The Go Botnet Controller provides a server-client architecture where the server (controller) manages user connections and bot connections. Users can authenticate and interact with the botnet controller to send commands to connected bots.
+The botnet controller manages user connections, handles bot commands, and orchestrates attacks on specified targets. The botnet client (bot) connects to the controller and executes commands received from it.
 
-The controller listens for connections on specified ports (`USER_SERVER_PORT` and `BOT_SERVER_PORT`) and handles incoming connections accordingly.
+![Botnet Architecture](images/botnet_architecture.png)
 
-## Features
+## Botnet Controller
 
-- User authentication system with username/password from a file (`users.txt`).
-- Interactive command menu for users to view connected bots, view rules, send commands to bots, and view ongoing attacks.
-- Handles concurrent connections using Goroutines.
-- Basic bot command execution (`sendCommandToBots`) and management of ongoing attacks.
+### Features:
 
-## Setup
+- User authentication
+- Menu-based user interface for command distribution
+- Monitoring of ongoing attacks
+- Rules enforcement for attack guidelines
 
-1. **Clone Repository:**
+### Usage:
 
-   ```bash
-   git clone https://github.com/Birdo1221/go-botnet-controller.git
-   ```
+1. Start the botnet controller server on the designated IP and port.
+2. Connect clients (bots) to the controller.
+3. Authenticate users to gain access to the controller's functionalities.
+4. Use the menu to view connected bots, send commands, monitor ongoing attacks, and log out.
 
-2. **Navigate to Project:**
+## Botnet Client (Bot)
 
-   ```bash
-   cd go-botnet-controller
-   ```
+### Features:
 
-3. **Compile and Run:**
+- HTTP, TCP, and UDP attack capabilities
+- Duration-based attack execution
+- Command interpretation from the controller
+- STOP command handling for bot shutdown
 
-   ```bash
-   go run main.go
-   ```
+### Usage:
 
-## Usage
-
-1. **Authentication:**
-
-   - Connect to the controller using a TCP client (e.g., `telnet`).
-   - Enter valid username and password to authenticate.
-
-2. **Menu Options:**
-
-   - `1`: View currently connected bots.
-   - `2`: View rules and guidelines.
-   - `3`: Send commands to connected bots.
-   - `4`: View ongoing attacks.
-   - `5`: Logout from the controller.
+1. Configure the bot with the controller's IP and port.
+2. Connect the bot to the controller.
+3. Receive commands from the controller to perform attacks.
+4. Execute HTTP, TCP, or UDP attacks based on received commands.
+5. Stop the bot on receiving the STOP command from the controller.
 
 ## Contributing
 
