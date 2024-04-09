@@ -25,7 +25,7 @@ The botnet controller manages user connections, handles bot commands, and makes 
 
 ### Features:
 
-- User authentication
+- User authentication Based On The Users.txt
 - Menu-based user interface for command distribution
 - Monitoring of ongoing attacks
 - Rules enforcement for attack guidelines
