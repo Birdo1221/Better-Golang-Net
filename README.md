@@ -4,7 +4,7 @@ This repository contains a botnet controller and a botnet client implemented in 
 
 ## Overview
 
-The botnet controller manages user connections, handles bot commands, and orchestrates attacks on specified targets. The botnet client (bot) connects to the controller and executes commands received from it.
+The botnet controller manages user connections, handles bot commands, and makes attacks on specified targets. The botnet client (bot) connects to the controller and executes commands received from it.
 
 ## Botnet Controller
 
@@ -55,10 +55,12 @@ Contributions to this project are welcome. For major changes, please open an iss
 
 The future development of this project may include:
 
-- Enhancements to user authentication and authorization mechanisms
-- Integration of additional attack methods and protocols
+- Improve How HTTP Read Its Received commands For Better Usage
+- Adding additional attack methods
 - Implementation of real-time attack monitoring and reporting
 - Optimization for scalability and performance
+- Client Security and Controller Security
+- Safer Code and Clean-Up 
 
 ## License
 
