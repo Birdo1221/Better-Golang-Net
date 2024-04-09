@@ -1,17 +1,21 @@
 # Go Botnet Controller
 
+![Go Gopher](https://golang.org/doc/gopher/doc.png)
+
 This project is a botnet controller implemented in Go (Golang) for managing bot connections and executing commands on connected bots over TCP/IP.
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- ![Overview](https://example.com/overview.png) [Overview](#overview)
+- ![Features](https://example.com/features.png) [Features](#features)
+- ![Setup](https://example.com/setup.png) [Setup](#setup)
+- ![Usage](https://example.com/usage.png) [Usage](#usage)
+- ![Contributing](https://example.com/contributing.png) [Contributing](#contributing)
+- ![License](https://example.com/license.png) [License](#license)
 
 ## Overview
+
+![Controller Diagram](https://example.com/controller-diagram.png)
 
 The Go Botnet Controller provides a server-client architecture where the server (controller) manages user connections and bot connections. Users can authenticate and interact with the botnet controller to send commands to connected bots.
 
@@ -19,10 +23,10 @@ The controller listens for connections on specified ports (`USER_SERVER_PORT` an
 
 ## Features
 
-- User authentication system with username/password from a file (`users.txt`).
-- Interactive command menu for users to view connected bots, view rules, send commands to bots, and view ongoing attacks.
-- Handles concurrent connections using Goroutines.
-- Basic bot command execution (`sendCommandToBots`) and management of ongoing attacks.
+- ![Authentication](https://example.com/authentication.png) User authentication system with username/password from a file (`users.txt`).
+- ![Menu](https://example.com/menu.png) Interactive command menu for users to view connected bots, view rules, send commands to bots, and view ongoing attacks.
+- ![Concurrency](https://example.com/concurrency.png) Handles concurrent connections using Goroutines.
+- ![Command Execution](https://example.com/command-execution.png) Basic bot command execution (`sendCommandToBots`) and management of ongoing attacks.
 
 ## Setup
 
@@ -61,6 +65,8 @@ The controller listens for connections on specified ports (`USER_SERVER_PORT` an
 
 ## Contributing
 
+![Contributing](https://example.com/contributing-image.png)
+
 Contributions to this project are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork the repository.
@@ -70,5 +76,7 @@ Contributions to this project are welcome. For major changes, please open an iss
 5. Open a pull request.
 
 ## License
+
+![License](https://example.com/license-image.png)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
