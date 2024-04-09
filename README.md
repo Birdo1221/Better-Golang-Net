@@ -25,7 +25,7 @@ The controller listens for connections on specified ports (`USER_SERVER_PORT` an
 
 - ![Authentication](https://example.com/authentication.png) User authentication system with username/password from a file (`users.txt`).
 - ![Menu](https://example.com/menu.png) Interactive command menu for users to view connected bots, view rules, send commands to bots, and view ongoing attacks.
-- ![Concurrency](https://example.com/concurrency.png) Handles concurrent connections using Goroutines.
+-  Handles concurrent connections using Goroutines.
 - ![Command Execution](https://example.com/command-execution.png) Basic bot command execution (`sendCommandToBots`) and management of ongoing attacks.
 
 ## Setup
