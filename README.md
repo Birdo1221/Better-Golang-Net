@@ -1,4 +1,5 @@
 # Botnet Controller and Botnet Client
+
 This repository contains a botnet controller and a botnet client implemented in Go.
 
 ## Overview
@@ -8,7 +9,6 @@ The botnet controller manages user connections, handles bot commands, and orches
 ## Botnet Controller
 
 ![Botnet Controller](https://github.com/Birdo1221/Better-Go-Cnc/assets/81320346/51845371-a14e-4581-865f-b5efba055a9d)
-
 
 ### Features:
 
@@ -50,6 +50,15 @@ Contributions to this project are welcome. For major changes, please open an iss
 3. Commit your changes (`git commit -am 'Add some feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
+
+## Future Development
+
+The future development of this project may include:
+
+- Enhancements to user authentication and authorization mechanisms
+- Integration of additional attack methods and protocols
+- Implementation of real-time attack monitoring and reporting
+- Optimization for scalability and performance
 
 ## License
 
