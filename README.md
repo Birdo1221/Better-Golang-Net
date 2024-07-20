@@ -1,13 +1,4 @@
 # Botnet Controller and Botnet Client
-
-This repository contains a botnet controller and a botnet client implemented in Go.
-For Network overloading which can be used for Service Disruption. 
-
-Please be aware that the Project provided here is intended for educational purposes only.
-Legal Implications: Engaging in DDoS attacks is illegal in many jurisdictions and can result in serious legal consequences, including fines and imprisonment.
-
-Ethical Concerns: Deliberately disrupting services or networks can harm innocent users and businesses, violating ethical principles of fairness and respect.
-
 ## Overview
 
 The botnet controller manages user connections, handles bot commands, and makes attacks on specified targets. The botnet client (bot) connects to the controller and executes commands received from it.
