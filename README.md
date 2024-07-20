@@ -1,6 +1,6 @@
 # Botnet Controller and Botnet Client
 
-This is a Updated Version The Previous Version Of This Can Be Found Here: [Old Src](https://github.com/Birdo1221/Golang-Net)
+This is a Updated Version The Previous Version Of This Can Be Found Here: [Link](https://github.com/Birdo1221/Golang-Net)
 
 
 
