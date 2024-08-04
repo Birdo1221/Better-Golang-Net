@@ -3,7 +3,6 @@
 This is a Updated Version The Previous Version Of This Can Be Found Here: [Link](https://github.com/Birdo1221/Golang-Net)
 
 
-
 ## Overview
 
 The botnet controller manages user connections, handles bot commands, and makes attacks on specified targets. The botnet client (bot) connects to the controller and executes commands received from it.
