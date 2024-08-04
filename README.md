@@ -1,5 +1,5 @@
 # Botnet Controller and Botnet Client
-
+## This project is Depreciated and Wont recive further updates
 This is a Updated Version The Previous Version Of This Can Be Found Here: [Link](https://github.com/Birdo1221/Golang-Net)
 
 ## Overview
