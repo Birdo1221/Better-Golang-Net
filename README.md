@@ -34,7 +34,7 @@ The botnet controller manages user connections, handles bot commands, and makes 
 
 ### Features:
 
-- HTTP, TCP, and UDP attack capabilities
+- TCP, and UDP attack capabilities
 - Duration-based attack execution
 - Command interpretation from the controller
 - STOP command handling for bot shutdown
@@ -59,7 +59,10 @@ First, ensure Go is installed on your system. You can download and install Go fr
 git clone https://github.com/Birdo1221/Better-Go-Cnc.git
 
 # Navigate to the controller directory
-cd Better-Go-Cnc/controller
+cd Better-Go-Cnc
+
+go mod init cnc
+go mod tidy
 
 # Build and run the controller
 go build ./controller
