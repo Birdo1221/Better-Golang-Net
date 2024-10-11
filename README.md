@@ -65,7 +65,7 @@ go mod init cnc
 go mod tidy
 
 # Build and run the controller
-go build ./controller
+go build controller.go
 ```
 
 #### 2. Set Up Botnet Bot / Client
@@ -75,10 +75,13 @@ go build ./controller
 git clone https://github.com/Birdo1221/Better-Go-Cnc.git
 
 # Navigate to the bot directory
-cd Better-Go-Cnc/bot
+cd Better-Go-Cnc
+
+go mod init bot
+go mod tidy
 
 # Build and run the bot
-go build ./bot
+go build bot.go
 ```
 
 ## Future Development
